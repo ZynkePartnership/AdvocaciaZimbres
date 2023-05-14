@@ -1,6 +1,8 @@
-const navbarToggle = document.getElementsByClassName("nav-content-btn");
-const navbarCollapse = document.getElementsByClassName("nav-content");
+const navbarToggle = document.querySelector(".nav-content-btn");
+const navbarCollapse = document.querySelector("nav");
 
-navbarToggle.addEventListener('click', function(){
-    navbarCollapse.classList.toggle('show');
-})
+navbarToggle.addEventListener("click", showBtn);
+
+function showBtn(){
+    navbarCollapse.classList.toggle("show");
+}
