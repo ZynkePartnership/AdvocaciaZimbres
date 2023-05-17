@@ -8,6 +8,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -43,12 +44,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 200;
 }
 .nav-content{
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+.nav-content li{
+    width: 100%;
+    text-align: center;
 }
 .nav-content li a{
     text-decoration: none;
@@ -58,6 +64,7 @@ nav{
 @media screen and (max-width: 768px) {
     .logo{
         width: 100%;
+        height: 100%;
         justify-content: space-between;
     }
     .nav-logo-container{
@@ -73,10 +80,16 @@ nav{
         display: none;
     }
     nav.show{
-        display: block;
+        display: flex;
+        width: 100%;
+        background-color: white;
     }
     .nav-content{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 15vh;
     }
 }
 
