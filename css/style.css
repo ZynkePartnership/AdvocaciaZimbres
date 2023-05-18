@@ -39,6 +39,7 @@ header{
     border-radius: 1px;
     background-color: #000000;
     margin: 4px 0;
+    transition: .3s;
 }
 
 nav{
@@ -79,6 +80,7 @@ nav{
     }
     .icon-bar.show{
         transform: rorateX(45deg);
+        transition: .3s;
     }
 
     nav{
