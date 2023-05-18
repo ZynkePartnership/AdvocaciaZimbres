@@ -82,7 +82,7 @@ nav{
         background-color: aqua;
     }
     .icon-bar.anim{
-        transform: rorateX(45deg);
+        transform: rotateX(45deg);
         transition: .3s;
     }
 
