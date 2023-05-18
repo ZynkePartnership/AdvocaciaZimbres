@@ -6,5 +6,5 @@ navbarToggle.addEventListener("click", showBtn);
 
 function showBtn(){
     navbarCollapse.classList.toggle("show");
-    iconBarAnim.classList.toggle("show");
+    iconBarAnim.classList.toggle("anim");
 }
