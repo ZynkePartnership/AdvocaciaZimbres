@@ -29,6 +29,8 @@ header{
 
 .nav-content-btn{
     display: none;
+    border: none;
+    background-color: white;
 }
 .icon-bar{
     display: block;
@@ -74,6 +76,9 @@ nav{
         display: block;
         cursor: pointer;
         margin: 0 2em;
+    }
+    .icon-bar.show{
+        transform: rorateX(45deg);
     }
 
     nav{
